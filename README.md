@@ -65,11 +65,11 @@ Date range analyzed: August 1, 2016 – August 1, 2017.
 4. Apply date filtering with `_TABLE_SUFFIX` (used throughout this project).
 5. Run the SQL files in order:
 
-- [`sql/01_total_sessions.sql`](sql/01_total_sessions.sql)
-- [`sql/02_traffic_by_channel.sql`](sql/02_traffic_by_channel.sql)
-- [`sql/03_conversion_rate_by_source.sql`](sql/03_conversion_rate_by_source.sql)
-- [`sql/04_revenue_by_source.sql`](sql/04_revenue_by_source.sql)
-- [`sql/05_device_performance.sql`](sql/05_device_performance.sql)
+- [01_total_sessions.sql](sql/01_total_sessions.sql)
+- [02_traffic_by_channel.sql](sql/02_traffic_by_channel.sql)
+- [03_conversion_rate_by_source.sql](sql/03_conversion_rate_by_source.sql)
+- [04_revenue_by_source.sql](sql/04_revenue_by_source.sql)
+- [05_device_performance.sql](sql/05_device_performance.sql)
 
 Revenue conversion used in this project: `revenue_usd = revenue_micro / 1000000`.
 
