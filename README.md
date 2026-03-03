@@ -45,6 +45,9 @@ Date range analyzed: August 1, 2016 – August 1, 2017.
 - Mobile users converted at approximately 0.41%.
 - Desktop conversion performance was roughly four times higher than mobile.
 
+### Monthly Performance Trends
+Revenue fluctuated throughout the year, with April 2017 representing the highest revenue month (~$222K). December 2016 recorded the highest conversion rate (~1.83%). Revenue changes appear driven primarily by transaction volume rather than a pronounced seasonal spike.
+
 ---
 
 ## SQL Techniques Used
@@ -70,6 +73,7 @@ Date range analyzed: August 1, 2016 – August 1, 2017.
 - [03_conversion_rate_by_source.sql](sql/03_conversion_rate_by_source.sql)
 - [04_revenue_by_source.sql](sql/04_revenue_by_source.sql)
 - [05_device_performance.sql](sql/05_device_performance.sql)
+- [06_monthly_revenue_trend.sql](sql/06_monthly_revenue_trend.sql)
 
 Revenue conversion used in this project: `revenue_usd = revenue_micro / 1000000`.
 
