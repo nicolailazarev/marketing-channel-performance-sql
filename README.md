@@ -83,3 +83,11 @@ Revenue conversion used in this project: `revenue_usd = revenue_micro / 1000000`
 
 - Google BigQuery
 - SQL
+
+---
+
+## Author
+
+Nicolai Lazarev  
+University of Colorado Boulder  
+INFO 3401 Portfolio Project
