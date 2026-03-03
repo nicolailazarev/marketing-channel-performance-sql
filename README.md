@@ -61,9 +61,17 @@ Date range analyzed: August 1, 2016 – August 1, 2017.
 
 1. Open Google BigQuery.
 2. Use dataset: `bigquery-public-data.google_analytics_sample`.
-3. Query tables: `ga_sessions_*`.
-4. Apply `_TABLE_SUFFIX` filtering for the date range.
-5. Convert revenue using: `revenue_usd = revenue_micro / 1000000`.
+3. Query tables using: `ga_sessions_*`.
+4. Apply date filtering with `_TABLE_SUFFIX` (used throughout this project).
+5. Run the SQL files in order:
+
+- [`sql/01_total_sessions.sql`](sql/01_total_sessions.sql)
+- [`sql/02_traffic_by_channel.sql`](sql/02_traffic_by_channel.sql)
+- [`sql/03_conversion_rate_by_source.sql`](sql/03_conversion_rate_by_source.sql)
+- [`sql/04_revenue_by_source.sql`](sql/04_revenue_by_source.sql)
+- [`sql/05_device_performance.sql`](sql/05_device_performance.sql)
+
+Revenue conversion used in this project: `revenue_usd = revenue_micro / 1000000`.
 
 ---
 
